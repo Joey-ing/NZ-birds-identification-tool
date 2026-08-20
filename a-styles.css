@@ -1,0 +1,441 @@
+body{                              
+    font-family: "Changa One", sans-serif;
+    background-color: #F0FFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height:70px;
+    background-color: #D1E8D6;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+header h1{
+    text-align:center;
+    line-break: normal;
+    color: #047E33;
+}
+
+.header-icon-left, .header-icon-right{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: flex-start;
+}
+
+.header-icon-left button, .header-icon-right button, .header-icon-middle button{
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+ 
+.header-icon-left button:hover, .header-icon-right button:hover, .header-icon-middle button:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+ 
+.header-icon-left img, .header-icon-right img{
+    width: 80px;
+}
+
+.header-icon-middle img{
+    width: 320px;
+}
+
+.body-section-1 {
+   position: relative;
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+
+.image-background {
+   background-color: #d1e8d69d;
+   border-radius: 15px;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+
+.image-background img {
+   width: 100%;
+   border-radius: 15px;
+   padding: 10px;
+   box-sizing: border-box;
+   display:block;
+}
+
+.dropdown{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   right: 20px;
+}
+
+.dropdown button{
+   background-color: #91cd9e9a;
+   color: aliceblue;
+   padding: 10px 15px;
+   border-radius: 15px;
+   cursor: pointer;
+   width: 100%;
+   height: 50px;
+   box-sizing: border-box;
+}
+
+.dropdown a{
+   display: block;
+   color: rgb(234, 241, 227);
+   text-decoration: none;
+   padding: 10px 15px;
+}
+
+.dropdown .content{
+   display: none;
+   position: absolute;
+   background-color: #d1e8d69d;
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px hsla(0,0%,0%,0.3);
+   box-sizing: border-box;
+}
+
+.dropdown:hover .content{
+   display: block;
+}
+
+.dropdown:hover button{
+   background-color: #aad6b3;
+}
+.dropdown a:hover{
+   background-color: #047E33;
+   border-radius: 15px;
+}
+
+.body-section-2-background{
+    width: 200px;
+    background-color: #91CD9E;
+    padding-left: 20px;
+    align-items: start;
+    border-radius: 10px;
+}
+
+.body-section-2-title{
+    padding-left: 25px;
+    font-size: 15px;
+    color: #047E33;
+}
+
+.body-section-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin: 40px;
+}
+
+.body-section-3-image-1{
+    background-image: url('homepage-images/Small-bird-homepage.jpg');
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.body-section-3-image-2{
+    background-image: url('homepage-images/Fantail-homepage.jpg');
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.body-section-3-image-3{
+    background-image: url('homepage-images/Human-bird-homepage.jpg');
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+.body-section-3-image {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card-of-information{
+    width: 250px;
+    height: 280px;
+    background-color: #D1E8D6;
+    border-radius: 15px;
+    padding: 15px;
+    transition: transform 0.2s ease;
+}
+
+.card-of-information:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-of-information a {
+    text-decoration: none;
+    color: #047E33;
+}
+
+.card-of-information a:hover {
+    color: #025924;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 300px;
+    background-color: #D1E8D6;
+    margin-top: 40px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+ 
+.contact-button{
+   background-color: #91CD9E;
+   color: #047E33;
+   padding: 8px 22px;
+   border-radius: 12px;
+   border: none;
+   font-weight: bold;
+   font-size: 28px;
+   cursor: pointer;
+}
+.contact-button:hover{
+   transform: scale(1.03);
+   transition: 0.2s ease;
+}
+
+.footer-content-background a{
+  text-decoration: none;
+}
+
+.reference-1,.reference-2{
+    color: white;
+    font-size: 16px;
+}
+ 
+.reference-1 h2,.reference-2 h2{
+    font-size: 24px;
+}
+
+.reference-1 h3,.reference-2 h3{
+    font-size: 18px;
+}
+
+.reference-1 a,.reference-2 a{
+   color: white;
+   display: block;
+}
+
+
+/**select-page**/
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+.page-title {
+    text-align: center;
+    color: #047E33;
+    font-size: 24px;
+    margin:15px 0 25px;
+}
+.bird-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.bird-card {
+    background: #d1e8d6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.bird-card img {
+    width: 300px;
+    height: 150px;
+    padding: 10px;;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 15px;
+}
+
+.bird-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-text {
+    padding:3px;
+    color:#047E33;
+}
+
+/**information-page**/
+.detail-page-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: #F0FFFF;
+    background-image: url('detail-page-images/Eurasian-blackbird-dp5.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+}
+ 
+.detail-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:15px;
+    position: relative;
+    z-index:2;
+}
+
+.information-container, .information-container-bottom{
+    background-color: #D1E8D6;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+ 
+ 
+.detail-top{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    position: relative;
+    margin-bottom: 24px;
+}
+ 
+.detail-info-text strong{
+    margin-right: 10px;
+    color: #047E33;
+    font-size: 28px;
+} 
+ 
+.detail-info-text p{
+    color: #047E33;
+    font-size: 24px;
+}
+ 
+.save-button{
+    position:absolute;
+    top:0;
+    right:0;
+    background:transparent;
+    border:none;
+    cursor:pointer;
+}
+
+.save-button:hover{
+   transform: scale(1.05);
+   transition: transform 0.2s ease;
+}
+ 
+.detail-main-image img{
+    width: 85%;
+    border-radius:15px;
+    min-height: 500px;
+    object-fit: cover;
+}
+ 
+.audio-player-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:20px 0;
+}
+.audio-btn{
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    flex-shrink:0;
+}
+
+.speaker-icon{
+    width: 200px;
+}
+ 
+ 
+.thumbnail-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin:10px 0;
+}
+.thumb-item img{
+   width: 100%;
+   height: 110px;
+   object-fit: cover;
+   object-position: center;
+   border-radius:15px;
+   display:block;
+}
+
+ 
+.around-birds-section h2,
+.around-birds-section h3{
+   color:#047E33;
+   margin:0;
+}
+.around-bird-container{
+  display:flex;
+  gap:15px;
+  overflow-x:auto;
+  padding: 8px 0;
+}
+.around-bird-card{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 60%;
+  cursor:pointer;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.around-bird-card img {
+   width: 100%;
+   height: 160px;/* can adj to right size*/
+   object-fit: cover;
+   object-position: center;
+   display: block;
+}
+.around-bird-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*comming-soon-page*/
+.notice{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 15px 0;
+}
+
+.notice img{
+   width: 60%;
+   max-width: 650px;
+   height: auto;
+   display: block;
+}
